@@ -27,8 +27,17 @@ header>h1{
     font-size: 2em;
 }
 
+header>p{
+    margin-top: -16px;
+    margin-bottom: 23px;
+    padding: 0px;
+    text-align: center;
+    font-size: 1em;
+}
+
 nav{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    width: 400px;
 }
 
 nav>a{
@@ -38,25 +47,36 @@ nav>a{
 }
 
 nav>a:hover{
-    background-color:var(--cor03);
-    padding: 5px;
+    background-color:var(--cor01);
+    color: var(--cor02);
+    padding: 10px;
     border-radius: 4px;
     transition-duration: 0.5s;
     text-decoration: underline;
-    
+}
+
+hr {
+    border: none; 
+    border-top: 1px solid var(--cor0); 
+    width: 1900px;
+    box-shadow: -1px 3px 20px 4px;
+    margin: 26px 0px; 
 }
 
 main{
     height: 90vh;
-    background-color: var(--cor01);
-
 }
+
+section>h1{
+    margin-bottom: 30px;
+}
+
 main>section{
+    text-align: justify;
     padding:20px;
     margin-bottom:10px;
     border-radius: 10px;
-    background-color:var(--cor01);
-    color: var(--cor02);
+    color: var(--cor0);
 
 }
 
